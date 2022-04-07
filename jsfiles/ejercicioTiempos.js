@@ -7,7 +7,7 @@ console.log("tareas");
 
 for (var i = 0; i < 14; i++) {
     if (i== 0) {
-        console.group("Semana 1");
+        console.groupCollapsed("Semana 1");
     } 
     console.group("dia " + (i + 1));
     console.log(trabajo);
@@ -18,6 +18,6 @@ for (var i = 0; i < 14; i++) {
 
     if (i == 6){
         console.groupEnd();
-        console.group("Semana 2");
+        console.groupCollapsed("Semana 2");
     }
 }
